@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>param1</key>
+	<dict>
+		<key>type</key>
+		<string>label</string>
+		<key>position</key>
+		<string>{{0 , 15},{320 , 18}}</string>
+		<key>fontsize</key>
+		<string>16</string>
+		<key>fontface</key>
+		<string>Arial-BoldMT</string>
+		<key>value</key>
+		<string>My Account</string>
+		<key>color</key>
+		<string>ffffff</string>
+		<key>align</key>
+		<string>center</string>
+	</dict>
+	<key>param2</key>
+	<dict>
+		<key>type</key>
+		<string>button</string>
+		<key>position</key>
+		<string>{{259 , 6},{52 , 32}}</string>
+		<key>image</key>
+		<string>btn-logout.png</string>
+	</dict>
+	<key>param3</key>
+	<dict>
+		<key>type</key>
+		<string>webview</string>
+		<key>position</key>
+		<string>{{0,44},{320,367}}</string>
+		<key>value</key>
+		<string>screen-16</string>
+	</dict>
+</dict>
+</plist>

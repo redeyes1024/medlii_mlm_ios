@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>OtherParams</key>
+	<dict>
+		<key>param1</key>
+		<dict>
+			<key>type</key>
+			<string>label</string>
+			<key>position</key>
+			<string>{{0 , 15},{320 , 18}}</string>
+			<key>fontsize</key>
+			<string>16</string>
+			<key>fontface</key>
+			<string>Arial-BoldMT</string>
+			<key>value</key>
+			<string>Discount Summary</string>
+			<key>color</key>
+			<string>ffffff</string>
+			<key>align</key>
+			<string>center</string>
+		</dict>
+		<key>param2</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>position</key>
+			<string>{{9 , 6},{56 , 32}}</string>
+			<key>image</key>
+			<string>btn-back.png</string>
+			<key>action</key>
+			<string>Back</string>
+		</dict>
+		<key>param3</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>position</key>
+			<string>{{279 , 6},{32 , 32}}</string>
+			<key>image</key>
+			<string>btn-add.png</string>
+		</dict>
+	</dict>
+	<key>ListParams</key>
+	<dict>
+		<key>param1</key>
+		<dict>
+			<key>type</key>
+			<string>label</string>
+			<key>position</key>
+			<string>{{14 , 11},{90 , 15}}</string>
+			<key>fontsize</key>
+			<string>13</string>
+			<key>fontface</key>
+			<string>Arial-BoldMT</string>
+			<key>value</key>
+			<string>Person No:</string>
+			<key>color</key>
+			<string>2d3328</string>
+		</dict>
+		<key>param2</key>
+		<dict>
+			<key>type</key>
+			<string>label</string>
+			<key>position</key>
+			<string>{{90 , 11},{90 , 15}}</string>
+			<key>fontsize</key>
+			<string>13</string>
+			<key>fontface</key>
+			<string>Arial-BoldMT</string>
+			<key>data</key>
+			<string>person_no</string>
+			<key>color</key>
+			<string>2d3328</string>
+		</dict>
+		<key>param3</key>
+		<dict>
+			<key>type</key>
+			<string>label</string>
+			<key>position</key>
+			<string>{{14 , 38},{30 , 15}}</string>
+			<key>fontsize</key>
+			<string>13</string>
+			<key>fontface</key>
+			<string>Arial-BoldMT</string>
+			<key>value</key>
+			<string>Age:</string>
+			<key>color</key>
+			<string>2d3328</string>
+		</dict>
+		<key>param4</key>
+		<dict>
+			<key>type</key>
+			<string>label</string>
+			<key>position</key>
+			<string>{{45 , 38},{30 , 15}}</string>
+			<key>fontsize</key>
+			<string>13</string>
+			<key>fontface</key>
+			<string>Arial-BoldMT</string>
+			<key>data</key>
+			<string>age_start</string>
+			<key>color</key>
+			<string>2d3328</string>
+		</dict>
+		<key>param5</key>
+		<dict>
+			<key>type</key>
+			<string>label</string>
+			<key>position</key>
+			<string>{{65 , 38},{30 , 15}}</string>
+			<key>fontsize</key>
+			<string>13</string>
+			<key>fontface</key>
+			<string>Arial-BoldMT</string>
+			<key>value</key>
+			<string>-</string>
+			<key>color</key>
+			<string>2d3328</string>
+		</dict>
+		<key>param6</key>
+		<dict>
+			<key>type</key>
+			<string>label</string>
+			<key>position</key>
+			<string>{{75 , 38},{30 , 15}}</string>
+			<key>fontsize</key>
+			<string>13</string>
+			<key>fontface</key>
+			<string>Arial-BoldMT</string>
+			<key>data</key>
+			<string>age_end</string>
+			<key>color</key>
+			<string>2d3328</string>
+		</dict>
+		<key>param7</key>
+		<dict>
+			<key>type</key>
+			<string>label</string>
+			<key>position</key>
+			<string>{{158 , 11},{90 , 15}}</string>
+			<key>fontsize</key>
+			<string>13</string>
+			<key>fontface</key>
+			<string>Arial-BoldMT</string>
+			<key>data</key>
+			<string>person_type</string>
+			<key>color</key>
+			<string>2d3328</string>
+		</dict>
+		<key>param8</key>
+		<dict>
+			<key>type</key>
+			<string>label</string>
+			<key>position</key>
+			<string>{{158 , 38},{63 , 15}}</string>
+			<key>fontsize</key>
+			<string>13</string>
+			<key>fontface</key>
+			<string>Arial-BoldMT</string>
+			<key>value</key>
+			<string>Discount:</string>
+			<key>color</key>
+			<string>2d3328</string>
+		</dict>
+		<key>param9</key>
+		<dict>
+			<key>type</key>
+			<string>label</string>
+			<key>position</key>
+			<string>{{221, 38},{30 , 15}}</string>
+			<key>fontsize</key>
+			<string>13</string>
+			<key>fontface</key>
+			<string>Arial-BoldMT</string>
+			<key>data</key>
+			<string>discount</string>
+			<key>color</key>
+			<string>2d3328</string>
+		</dict>
+		<key>param10</key>
+		<dict>
+			<key>type</key>
+			<string>image</string>
+			<key>position</key>
+			<string>{{300 , 24},{9 , 13}}</string>
+			<key>value</key>
+			<string>arrow.png</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>param1</key>
+	<dict>
+		<key>type</key>
+		<string>image</string>
+		<key>position</key>
+		<string>{{9 , 9},{302 , 36}}</string>
+		<key>value</key>
+		<string>img_topbar.png</string>
+	</dict>
+	<key>param3</key>
+	<dict>
+		<key>type</key>
+		<string>webview</string>
+		<key>position</key>
+		<string>{{11 , 84},{296 , 359}}</string>
+		<key>value</key>
+		<string>screen3</string>
+	</dict>
+	<key>param2</key>
+	<dict>
+		<key>type</key>
+		<string>label</string>
+		<key>position</key>
+		<string>{{50 , 10},{220 , 33}}</string>
+		<key>fontsize</key>
+		<string>18</string>
+		<key>fontface</key>
+		<string>Arial-BoldMT</string>
+		<key>value</key>
+		<string>Home</string>
+		<key>align</key>
+		<string>center</string>
+		<key>color</key>
+		<string>000000</string>
+	</dict>
+	<key>param4</key>
+	<dict>
+		<key>type</key>
+		<string>button</string>
+		<key>position</key>
+		<string>{{278 , 12},{30 , 30}}</string>
+		<key>image</key>
+		<string>btn_setting.png</string>
+		<key>action</key>
+		<string>redirect</string>
+		<key>fileName</key>
+		<string>Setting</string>
+	</dict>
+</dict>
+</plist>

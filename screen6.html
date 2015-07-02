@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <title>MLM</title>
+    </head>
+    <body>
+        <form action="~reload_event~" method="post">
+           <table cellpadding="0" cellspacing="0" border="0" width="240" align="center">
+		   <tr><td height="20"></td></tr>
+           		<tr>
+                <!--	<td align="left" valign="top" width="130" height="52"><input name="" type="radio" value="" class="radio_size"/> <span class="font">Date</span></td>
+                    <td align="left" valign="top" width="97" height="52"><input name="" type="radio" value="" class="radio_size"/> <span class="font">Event Title</span></td>-->
+                
+				 	<td width="130" align="left" valign="top" height="40">
+					<input name="recommend" id="recommend" checked type="radio" value="true" onclick=setResname() />
+						<span class="font">Date</span>
+				</td>
+				<td align="left" valign="top" width="97" height="40">
+					<input  type="radio" name="recommend" id="recommend" value="false" onclick=setResname1() />
+						<span class="font">Event Title</span>
+				</td>
+				  
+				   
+					 </tr>
+                 <tr id="setrow"></tr>
+				
+                 <tr>
+                   		<td  align="center" height="55" colspan="2" valign="middle"><input name="btnsave" type="image" class="btn-search" id="btnsave" lang="*" onclick="validate()" value=" " src="" border="0" xml:lang="*" /></td>
+
+				</tr>
+			</table> 
+        </form>
+        <script type="text/javascript" src="HBGeneral.html"></script>
+    </body>
+</html>
+<script>
+$(document).ready(function()
+{
+setTimeout("setResname()",100);
+});
+function setResname()
+{
+	//alert(document.getElementById('recommend').value);
+	var str;
+	str='<td height="50" valign="top" align="left" colspan="2" class="select-bg">';
+	str +='<input type="hidden" name="event_date" id="event_date" title="date" alt="*" />';
+	str+='<a href="~LinkAction~date~event_date"  style="display:block;width:230px;  height:20px;" id="event_date_cnt" >Select Date</a></td>';
+	document.getElementById('setrow').innerHTML=str;
+							
+}
+function setResname1()
+{
+	//alert(document.getElementById('recommend').value);
+	str='<td height="35" valign="top" align="center" colspan="2" >';
+	str +='<input type="text" id="event_title" name="event_title" placeholder="Enter Event Title" title="event title" value="" alt="*" style="width:227px; height:29px;" class="input-bg-profile" />';
+	str +='</td>';
+	document.getElementById('setrow').innerHTML=str;
+}
+</script>

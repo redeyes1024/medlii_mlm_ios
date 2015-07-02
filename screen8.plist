@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ListParams</key>
+	<dict>
+		<key>param1</key>
+		<dict>
+			<key>type</key>
+			<string>label</string>
+			<key>position</key>
+			<string>{{15 , 4},{263 , 20}}</string>
+			<key>fontsize</key>
+			<string>15</string>
+			<key>fontface</key>
+			<string>Arial-BoldMT</string>
+			<key>data</key>
+			<string>course_name</string>
+			<key>color</key>
+			<string>000000</string>
+			<key>align</key>
+			<string>left</string>
+			<key>lines</key>
+			<string>0</string>
+		</dict>
+		<key>param2</key>
+		<dict>
+			<key>type</key>
+			<string>label</string>
+			<key>position</key>
+			<string>{{15 , 16},{320 , 33}}</string>
+			<key>fontsize</key>
+			<string>13</string>
+			<key>fontface</key>
+			<string>ArialMT</string>
+			<key>data</key>
+			<string>course_date</string>
+			<key>color</key>
+			<string>404040</string>
+			<key>align</key>
+			<string>left</string>
+			<key>lines</key>
+			<string>0</string>
+		</dict>
+		<key>param3</key>
+		<dict>
+			<key>type</key>
+			<string>cellaction</string>
+			<key>action</key>
+			<string>Redirect</string>
+			<key>fileName</key>
+			<string>Course_detail</string>
+		</dict>
+	</dict>
+	<key>OtherParams</key>
+	<dict>
+		<key>param4</key>
+		<dict>
+			<key>type</key>
+			<string>label</string>
+			<key>position</key>
+			<string>{{50 , 10},{220 , 33}}</string>
+			<key>fontsize</key>
+			<string>18</string>
+			<key>fontface</key>
+			<string>Arial-BoldMT</string>
+			<key>value</key>
+			<string>Courses</string>
+			<key>color</key>
+			<string>000000</string>
+			<key>align</key>
+			<string>center</string>
+		</dict>
+		<key>param2</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>position</key>
+			<string>{{12 , 12},{30 , 30}}</string>
+			<key>image</key>
+			<string>btn_home.png</string>
+			<key>action</key>
+			<string>Redirect</string>
+			<key>fileName</key>
+			<string>Home_Back</string>
+		</dict>
+		<key>param3</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>position</key>
+			<string>{{278 , 12},{30 , 30}}</string>
+			<key>image</key>
+			<string>btn_search1s.png</string>
+			<key>action</key>
+			<string>Redirect</string>
+			<key>fileName</key>
+			<string>Search_course</string>
+		</dict>
+		<key>param1</key>
+		<dict>
+			<key>type</key>
+			<string>image</string>
+			<key>position</key>
+			<string>{{9 , 9},{302 , 36}}</string>
+			<key>value</key>
+			<string>img_topbar.png</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

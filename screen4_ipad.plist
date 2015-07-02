@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ListParams</key>
+	<dict>
+		<key>param1</key>
+		<dict>
+			<key>type</key>
+			<string>label</string>
+			<key>position</key>
+			<string>{{21 , 10},{600 , 20}}</string>
+			<key>fontsize</key>
+			<string>20</string>
+			<key>fontface</key>
+			<string>Arial-BoldMT</string>
+			<key>data</key>
+			<string>member_name</string>
+			<key>color</key>
+			<string>000000</string>
+			<key>align</key>
+			<string>left</string>
+			<key>lines</key>
+			<string>0</string>
+		</dict>
+		<key>param2</key>
+		<dict>
+			<key>type</key>
+			<string>label</string>
+			<key>position</key>
+			<string>{{21 , 32},{600 , 16}}</string>
+			<key>fontsize</key>
+			<string>16</string>
+			<key>fontface</key>
+			<string>ArialMT</string>
+			<key>data</key>
+			<string>vJobTitle</string>
+			<key>color</key>
+			<string>414141</string>
+			<key>align</key>
+			<string>left</string>
+			<key>lines</key>
+			<string>0</string>
+		</dict>
+		<key>param3</key>
+		<dict>
+			<key>type</key>
+			<string>label</string>
+			<key>position</key>
+			<string>{{21 , 50},{600 , 20}}</string>
+			<key>fontsize</key>
+			<string>18</string>
+			<key>fontface</key>
+			<string>ArialMT</string>
+			<key>data</key>
+			<string>email</string>
+			<key>color</key>
+			<string>414141</string>
+			<key>align</key>
+			<string>left</string>
+			<key>lines</key>
+			<string>0</string>
+		</dict>
+		<key>param4</key>
+		<dict>
+			<key>type</key>
+			<string>label</string>
+			<key>position</key>
+			<string>{{21 , 73},{600 , 16}}</string>
+			<key>fontsize</key>
+			<string>16</string>
+			<key>fontface</key>
+			<string>ArialMT</string>
+			<key>data</key>
+			<string>contact_no</string>
+			<key>color</key>
+			<string>414141</string>
+			<key>align</key>
+			<string>left</string>
+			<key>lines</key>
+			<string>0</string>
+		</dict>
+		<key>param5</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>position</key>
+			<string>{{21 , 50},{600 , 20}}</string>
+			<key>action</key>
+			<string>Redirect</string>
+			<key>fileName</key>
+			<string>SendEmail</string>
+		</dict>
+	</dict>
+	<key>OtherParams</key>
+	<dict>
+		<key>param1</key>
+		<dict>
+			<key>type</key>
+			<string>image</string>
+			<key>position</key>
+			<string>{{ 18, 15},{733 , 48}}</string>
+			<key>value</key>
+			<string>top_bar_ipad.png</string>
+		</dict>
+		<key>param2</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>position</key>
+			<string>{{23 , 19},{40 , 40}}</string>
+			<key>image</key>
+			<string>btn_home_ipad.png</string>
+			<key>action</key>
+			<string>Redirect</string>
+			<key>fileName</key>
+			<string>Home_Back</string>
+		</dict>
+		<key>param4</key>
+		<dict>
+			<key>type</key>
+			<string>label</string>
+			<key>position</key>
+			<string>{{22 , 67},{158 , 17}}</string>
+			<key>fontsize</key>
+			<string>13</string>
+			<key>fontface</key>
+			<string>ArialMT</string>
+			<key>data</key>
+			<string>search by name / email</string>
+			<key>color</key>
+			<string>282828</string>
+			<key>align</key>
+			<string>center</string>
+			<key>lines</key>
+			<string>0</string>
+		</dict>
+		<key>param3</key>
+		<dict>
+			<key>type</key>
+			<string>label</string>
+			<key>position</key>
+			<string>{{0 , 20},{750 , 40}}</string>
+			<key>fontsize</key>
+			<string>18</string>
+			<key>fontface</key>
+			<string>Arial-BoldMT</string>
+			<key>value</key>
+			<string>Directory</string>
+			<key>align</key>
+			<string>center</string>
+			<key>color</key>
+			<string>000000</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

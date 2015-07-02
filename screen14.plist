@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ListParams</key>
+	<dict>
+		<key>param1</key>
+		<dict>
+			<key>type</key>
+			<string>label</string>
+			<key>position</key>
+			<string>{{15 , 15},{250 , 20}}</string>
+			<key>fontsize</key>
+			<string>15</string>
+			<key>fontface</key>
+			<string>Arial-BoldMT</string>
+			<key>data</key>
+			<string>video_cate_title</string>
+			<key>color</key>
+			<string>000000</string>
+			<key>align</key>
+			<string>left</string>
+			<key>lines</key>
+			<string>0</string>
+		</dict>
+		<key>param2</key>
+		<dict>
+			<key>type</key>
+			<string>image</string>
+			<key>position</key>
+			<string>{{265, 10},{25 , 25}}</string>
+			<key>value</key>
+			<string>img_Arrow.png</string>
+		</dict>
+		<key>param3</key>
+		<dict>
+			<key>type</key>
+			<string>cellaction</string>
+			<key>action</key>
+			<string>Redirect</string>
+			<key>fileName</key>
+			<string>Videodetail</string>
+		</dict>
+	</dict>
+	<key>OtherParams</key>
+	<dict>
+		<key>param2</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>position</key>
+			<string>{{12 , 12},{30 , 30}}</string>
+			<key>image</key>
+			<string>btn_home.png</string>
+			<key>action</key>
+			<string>Redirect</string>
+			<key>fileName</key>
+			<string>Home_Back</string>
+		</dict>
+		<key>param1</key>
+		<dict>
+			<key>type</key>
+			<string>image</string>
+			<key>position</key>
+			<string>{{9 , 9},{302 , 36}}</string>
+			<key>value</key>
+			<string>img_topbar.png</string>
+		</dict>
+		<key>param3</key>
+		<dict>
+			<key>type</key>
+			<string>label</string>
+			<key>position</key>
+			<string>{{50 , 10},{220 , 33}}</string>
+			<key>fontsize</key>
+			<string>17</string>
+			<key>fontface</key>
+			<string>Arial-BoldMT</string>
+			<key>value</key>
+			<string>Video Categories</string>
+			<key>align</key>
+			<string>center</string>
+			<key>color</key>
+			<string>000000</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
